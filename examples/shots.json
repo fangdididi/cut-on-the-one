@@ -1,0 +1,14 @@
+{
+ "shots": [
+  {"id": "cold-open", "role": "open", "weight": "medium", "text": ""},
+  {"id": "pain", "text": "Release notes nobody reads", "in": "cut"},
+  {"id": "logo", "role": "section", "weight": "big", "in": "swell", "text": "Shiplog"},
+  {"id": "feature-1", "text": "Writes notes from merged PRs", "in": "whoosh"},
+  {"id": "feature-2", "text": "Groups by customer impact", "in": "whoosh"},
+  {"id": "flash-a", "role": "flash", "text": ""},
+  {"id": "flash-b", "role": "flash", "text": ""},
+  {"id": "metric", "weight": "big", "in": "impact", "text": "3 hours saved every release"},
+  {"id": "cta", "role": "cta", "weight": "medium", "text": "shiplog.dev, free for open source"}
+ ],
+ "voice": []
+}

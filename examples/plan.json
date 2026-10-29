@@ -1,0 +1,201 @@
+{
+ "song": {
+  "source": "music/launch-loop.wav",
+  "bpm": 122.0,
+  "offset": 0.42,
+  "meter": 4,
+  "duration": 48.0,
+  "confidence": 0.81
+ },
+ "fps": 30,
+ "lead": 0.0,
+ "from_bar": 1,
+ "phrase_bars": 4,
+ "beat_s": 0.491803,
+ "audio_start_s": 0.42,
+ "total_beats": 48,
+ "total_frames": 708,
+ "duration_s": 23.6,
+ "song_seconds_available": 47.58,
+ "shots": [
+  {
+   "id": "cold-open",
+   "role": "open",
+   "weight": "medium",
+   "in": "cut",
+   "text": "",
+   "lang": "en",
+   "read_s": 0.0,
+   "start_beat": 0,
+   "beats": 4,
+   "from": 0,
+   "duration": 59,
+   "pos": "1.1",
+   "start_s": 0.0,
+   "end_s": 1.967
+  },
+  {
+   "id": "pain",
+   "role": "beat",
+   "weight": "small",
+   "in": "cut",
+   "text": "Release notes nobody reads",
+   "lang": "en",
+   "read_s": 1.733,
+   "start_beat": 4,
+   "beats": 4,
+   "from": 59,
+   "duration": 59,
+   "pos": "2.1",
+   "start_s": 1.967,
+   "end_s": 3.933
+  },
+  {
+   "id": "logo",
+   "role": "section",
+   "weight": "big",
+   "in": "swell",
+   "text": "Shiplog",
+   "lang": "en",
+   "read_s": 0.733,
+   "start_beat": 8,
+   "beats": 4,
+   "from": 118,
+   "duration": 59,
+   "pos": "3.1",
+   "start_s": 3.933,
+   "end_s": 5.9
+  },
+  {
+   "id": "feature-1",
+   "role": "beat",
+   "weight": "small",
+   "in": "whoosh",
+   "text": "Writes notes from merged PRs",
+   "lang": "en",
+   "read_s": 2.067,
+   "start_beat": 12,
+   "beats": 6,
+   "from": 177,
+   "duration": 89,
+   "pos": "4.1",
+   "start_s": 5.9,
+   "end_s": 8.867
+  },
+  {
+   "id": "feature-2",
+   "role": "beat",
+   "weight": "small",
+   "in": "whoosh",
+   "text": "Groups by customer impact",
+   "lang": "en",
+   "read_s": 1.733,
+   "start_beat": 18,
+   "beats": 4,
+   "from": 266,
+   "duration": 59,
+   "pos": "5.3",
+   "start_s": 8.867,
+   "end_s": 10.833
+  },
+  {
+   "id": "flash-a",
+   "role": "flash",
+   "weight": "small",
+   "in": "cut",
+   "text": "",
+   "lang": "en",
+   "read_s": 0.0,
+   "start_beat": 22,
+   "beats": 1,
+   "from": 325,
+   "duration": 14,
+   "pos": "6.3",
+   "start_s": 10.833,
+   "end_s": 11.3
+  },
+  {
+   "id": "flash-b",
+   "role": "flash",
+   "weight": "small",
+   "in": "cut",
+   "text": "",
+   "lang": "en",
+   "read_s": 0.0,
+   "start_beat": 23,
+   "beats": 1,
+   "from": 339,
+   "duration": 15,
+   "pos": "6.4",
+   "start_s": 11.3,
+   "end_s": 11.8
+  },
+  {
+   "id": "metric",
+   "role": "beat",
+   "weight": "big",
+   "in": "impact",
+   "text": "3 hours saved every release",
+   "lang": "en",
+   "read_s": 2.067,
+   "start_beat": 24,
+   "beats": 8,
+   "from": 354,
+   "duration": 118,
+   "pos": "7.1",
+   "start_s": 11.8,
+   "end_s": 15.733
+  },
+  {
+   "id": "cta",
+   "role": "cta",
+   "weight": "medium",
+   "in": "cut",
+   "text": "shiplog.dev, free for open source",
+   "lang": "en",
+   "read_s": 2.067,
+   "start_beat": 32,
+   "beats": 16,
+   "from": 472,
+   "duration": 236,
+   "pos": "9.1",
+   "start_s": 15.733,
+   "end_s": 23.6
+  }
+ ],
+ "sfx": [
+  {
+   "shot": "logo",
+   "kind": "swell",
+   "start": 59,
+   "peak": 118
+  },
+  {
+   "shot": "feature-1",
+   "kind": "whoosh",
+   "start": 172,
+   "peak": 177
+  },
+  {
+   "shot": "feature-2",
+   "kind": "whoosh",
+   "start": 261,
+   "peak": 266
+  },
+  {
+   "shot": "metric",
+   "kind": "impact",
+   "start": 354,
+   "peak": 354
+  }
+ ],
+ "duck": [],
+ "music": {
+  "fade_from": 649,
+  "end": 708
+ },
+ "voice": [],
+ "notes": [
+  "held the last shot 8 extra beats so the film ends on a phrase boundary"
+ ]
+}

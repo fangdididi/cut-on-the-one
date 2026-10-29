@@ -1,0 +1,14 @@
+{
+ "source": "music/launch-loop.wav",
+ "duration": 48.0,
+ "meter": 4,
+ "bpm": 122.0,
+ "offset": 0.42,
+ "confidence": 0.81,
+ "likely_lift_bar": 9,
+ "sections": [
+  {"name": "intro", "bar": 1, "bars": 4},
+  {"name": "build", "bar": 5, "bars": 4},
+  {"name": "lift", "bar": 9, "bars": 8}
+ ]
+}
